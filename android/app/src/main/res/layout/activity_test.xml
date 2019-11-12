@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout">
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_gravity="center"/>
+
+
+
+
+<!--    <com.circulartimer.circulartimerview.CircularTimerView-->
+<!--        android:id="@+id/progress_circular"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:progressColor="#000"-->
+<!--        app:backgroundColor="#e76130"-->
+<!--        app:progressBackgroundColor="#eee"-->
+<!--        app:backgroundWidth="8"-->
+<!--        app:isClockwise="true"-->
+<!--        app:textSize="18sp"-->
+<!--        app:prefix="Time Left "-->
+<!--        app:suffix=" sec"-->
+<!--        app:progressText="Time Remaining..."-->
+<!--        app:maxValue="100"-->
+<!--        app:startingPoint="bottom"-->
+<!--        app:progressTextColor="#eee"/>-->
+
+</LinearLayout>
